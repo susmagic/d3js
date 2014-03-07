@@ -1,0 +1,130 @@
+body {
+	background: #fff;
+	width: 100%;
+	margin: 30px 0;
+	font-family: 'PT Sans';
+
+	
+}
+
+.container {
+	width: 820px;
+	background: url("../img/bg.png");
+	border: 10px #fff solid;
+	outline: 1px #ccc solid;
+	margin: 0 auto;
+	position: relative;
+	left: 50%;
+	margin-left: -410px;
+}
+
+
+
+svg {
+	display: block;
+    margin: -20px auto 20px;
+    position: relative;
+}
+
+ 
+g text {
+	opacity: 0
+}
+
+g:hover text {
+	opacity: 1;
+    background: #fff;
+    fill: #336ab6;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+g image {
+	opacity: 1
+}
+
+g:hover image {
+	opacity: 0;
+	display: none;
+}
+
+
+
+
+g:hover circle {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  stroke: #336ab6;
+  transition: 0.4s;
+
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.left {
+	position: absolute;
+	top: 10px;
+	left: 45px;
+	color: #C0D7E7;
+	width: 100px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.right {
+	position: absolute;
+	top: 10px;
+	right: 45px;
+	color: #C0D7E7;
+	width: 100px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+p {
+	color: #fff;
+	text-align: center;
+	margin: 140px 0 0 0;
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+/*Рассказать друзьям*/
+.button {
+	position: relative;
+	display: block;
+	margin: 80px auto 100px auto;
+	width: 420px;
+	height: 77px;
+	line-height: 80px;
+	background: #5BCA85;
+	color: #eee;
+	text-align: center;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 3px solid #44A265;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+	
+.button:hover {
+	background: rgba(91,202,133,0.7);
+}
+
+.button:active {
+	border-bottom: 0px solid #44A265;
+}
+
