@@ -37,6 +37,7 @@ g:hover text {
     fill: #336ab6;
 	font-size: 20px;
 	font-weight: bold;
+	transition: 0.4s;
 }
 
 
